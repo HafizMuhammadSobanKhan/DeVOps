@@ -30,4 +30,4 @@ RUN rm -rf photogenic photogenic.zip
 CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
 
 # Expose ports for HTTP and SSH
-EXPOSE 80 22
+EXPOSE 80 443 22
