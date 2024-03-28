@@ -1,5 +1,5 @@
 # Use the latest CentOS base image
-FROM centos:latest
+FROM rockylinux:rocky8
 
 # Maintainer information
 LABEL maintainer="msoban584@gmail.com"
